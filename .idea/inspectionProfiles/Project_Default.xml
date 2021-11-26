@@ -1,0 +1,118 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="105">
+            <item index="0" class="java.lang.String" itemvalue="certifi" />
+            <item index="1" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="2" class="java.lang.String" itemvalue="atomicwrites" />
+            <item index="3" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="4" class="java.lang.String" itemvalue="py" />
+            <item index="5" class="java.lang.String" itemvalue="Click" />
+            <item index="6" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="7" class="java.lang.String" itemvalue="python-slugify" />
+            <item index="8" class="java.lang.String" itemvalue="appdirs" />
+            <item index="9" class="java.lang.String" itemvalue="docutils" />
+            <item index="10" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="11" class="java.lang.String" itemvalue="placebo" />
+            <item index="12" class="java.lang.String" itemvalue="cfn-flip" />
+            <item index="13" class="java.lang.String" itemvalue="Werkzeug" />
+            <item index="14" class="java.lang.String" itemvalue="argcomplete" />
+            <item index="15" class="java.lang.String" itemvalue="attrs" />
+            <item index="16" class="java.lang.String" itemvalue="boto3" />
+            <item index="17" class="java.lang.String" itemvalue="pytest-testdox" />
+            <item index="18" class="java.lang.String" itemvalue="regex" />
+            <item index="19" class="java.lang.String" itemvalue="hjson" />
+            <item index="20" class="java.lang.String" itemvalue="zappa" />
+            <item index="21" class="java.lang.String" itemvalue="idna" />
+            <item index="22" class="java.lang.String" itemvalue="pathspec" />
+            <item index="23" class="java.lang.String" itemvalue="more-itertools" />
+            <item index="24" class="java.lang.String" itemvalue="pluggy" />
+            <item index="25" class="java.lang.String" itemvalue="wcwidth" />
+            <item index="26" class="java.lang.String" itemvalue="requests" />
+            <item index="27" class="java.lang.String" itemvalue="troposphere" />
+            <item index="28" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="29" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="30" class="java.lang.String" itemvalue="wsgi-request-logger" />
+            <item index="31" class="java.lang.String" itemvalue="zipp" />
+            <item index="32" class="java.lang.String" itemvalue="kappa" />
+            <item index="33" class="java.lang.String" itemvalue="urllib3" />
+            <item index="34" class="java.lang.String" itemvalue="itsdangerous" />
+            <item index="35" class="java.lang.String" itemvalue="Flask" />
+            <item index="36" class="java.lang.String" itemvalue="coverage" />
+            <item index="37" class="java.lang.String" itemvalue="coverage-badge" />
+            <item index="38" class="java.lang.String" itemvalue="botocore" />
+            <item index="39" class="java.lang.String" itemvalue="Flask-Cors" />
+            <item index="40" class="java.lang.String" itemvalue="lambda-packages" />
+            <item index="41" class="java.lang.String" itemvalue="pytest" />
+            <item index="42" class="java.lang.String" itemvalue="black" />
+            <item index="43" class="java.lang.String" itemvalue="enum-compat" />
+            <item index="44" class="java.lang.String" itemvalue="packaging" />
+            <item index="45" class="java.lang.String" itemvalue="fastjsonschema" />
+            <item index="46" class="java.lang.String" itemvalue="toml" />
+            <item index="47" class="java.lang.String" itemvalue="chardet" />
+            <item index="48" class="java.lang.String" itemvalue="jmespath" />
+            <item index="49" class="java.lang.String" itemvalue="tqdm" />
+            <item index="50" class="java.lang.String" itemvalue="s3transfer" />
+            <item index="51" class="java.lang.String" itemvalue="Unidecode" />
+            <item index="52" class="java.lang.String" itemvalue="future" />
+            <item index="53" class="java.lang.String" itemvalue="durationpy" />
+            <item index="54" class="java.lang.String" itemvalue="shapely" />
+            <item index="55" class="java.lang.String" itemvalue="jupyter-core" />
+            <item index="56" class="java.lang.String" itemvalue="azure_agrifood_farming" />
+            <item index="57" class="java.lang.String" itemvalue="json5" />
+            <item index="58" class="java.lang.String" itemvalue="jupyterlab-nvdashboard" />
+            <item index="59" class="java.lang.String" itemvalue="azureml-sdk" />
+            <item index="60" class="java.lang.String" itemvalue="jsonpickle" />
+            <item index="61" class="java.lang.String" itemvalue="numpy" />
+            <item index="62" class="java.lang.String" itemvalue="jupyter-server-mathjax" />
+            <item index="63" class="java.lang.String" itemvalue="jupyter-server" />
+            <item index="64" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="65" class="java.lang.String" itemvalue="jupyterlab-git" />
+            <item index="66" class="java.lang.String" itemvalue="ipython-genutils" />
+            <item index="67" class="java.lang.String" itemvalue="seaborn" />
+            <item index="68" class="java.lang.String" itemvalue="jupyter" />
+            <item index="69" class="java.lang.String" itemvalue="jupyterlab-widgets" />
+            <item index="70" class="java.lang.String" itemvalue="keras" />
+            <item index="71" class="java.lang.String" itemvalue="jupyterlab" />
+            <item index="72" class="java.lang.String" itemvalue="json-logging-py" />
+            <item index="73" class="java.lang.String" itemvalue="jsonschema" />
+            <item index="74" class="java.lang.String" itemvalue="ipywidgets" />
+            <item index="75" class="java.lang.String" itemvalue="jupyter-server-proxy" />
+            <item index="76" class="java.lang.String" itemvalue="h5py" />
+            <item index="77" class="java.lang.String" itemvalue="jupyterlab-server" />
+            <item index="78" class="java.lang.String" itemvalue="ipython" />
+            <item index="79" class="java.lang.String" itemvalue="jupyter-client" />
+            <item index="80" class="java.lang.String" itemvalue="ipykernel" />
+            <item index="81" class="java.lang.String" itemvalue="azureml-pipeline-steps" />
+            <item index="82" class="java.lang.String" itemvalue="pandas" />
+            <item index="83" class="java.lang.String" itemvalue="xarray" />
+            <item index="84" class="java.lang.String" itemvalue="azureml-pipeline-core" />
+            <item index="85" class="java.lang.String" itemvalue="jupytext" />
+            <item index="86" class="java.lang.String" itemvalue="tensorboard" />
+            <item index="87" class="java.lang.String" itemvalue="geopandas" />
+            <item index="88" class="java.lang.String" itemvalue="azureml-core" />
+            <item index="89" class="java.lang.String" itemvalue="jupyter-console" />
+            <item index="90" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="91" class="java.lang.String" itemvalue="statsmodels" />
+            <item index="92" class="java.lang.String" itemvalue="timezonefinder" />
+            <item index="93" class="java.lang.String" itemvalue="azureml-pipeline" />
+            <item index="94" class="java.lang.String" itemvalue="azureml-defaults" />
+            <item index="95" class="java.lang.String" itemvalue="jsondiff" />
+            <item index="96" class="java.lang.String" itemvalue="azure-core" />
+            <item index="97" class="java.lang.String" itemvalue="aws-cdk.aws_ecs_patterns" />
+            <item index="98" class="java.lang.String" itemvalue="aws-cdk.core" />
+            <item index="99" class="java.lang.String" itemvalue="aws-cdk.aws_rds" />
+            <item index="100" class="java.lang.String" itemvalue="aws-cdk.aws_secretsmanager" />
+            <item index="101" class="java.lang.String" itemvalue="aws-cdk.aws_ec2" />
+            <item index="102" class="java.lang.String" itemvalue="aws-cdk.aws_ecs" />
+            <item index="103" class="java.lang.String" itemvalue="aws-cdk.aws_iam" />
+            <item index="104" class="java.lang.String" itemvalue="aws-cdk.aws_s3" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
