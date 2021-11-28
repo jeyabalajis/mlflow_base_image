@@ -1,5 +1,5 @@
 # mlflow_base_image
-Base Image for hosting MLFlow in an ECS container in a Fargate service.
+Base Image for hosting MLFlow as a Fargate service in an ECS container.
 
 ## Build Status
 
