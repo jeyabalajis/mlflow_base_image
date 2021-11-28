@@ -27,11 +27,7 @@ FROM debian:buster AS runtime
 # Copy /venv from the previous stage:
 COPY --from=build /venv /venv
 
-RUN pip install \
-    mlflow==1.21.0 \
-    pymysql==1.0.2 \
-    boto3 && \
-    mkdir /mlflow/
+RUN mkdir /mlflow/
 
 EXPOSE 5000
 
