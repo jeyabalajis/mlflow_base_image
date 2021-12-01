@@ -1,7 +1,10 @@
-FROM continuumio/miniconda3
+FROM python:3.8.0
 
-COPY environment.yml .
-RUN conda env create -f environment.yml
+RUN pip install \
+    mlflow==1.18.0 \
+    pymysql==1.0.2 \
+    boto3 && \
+    mkdir /mlflow/
 
 EXPOSE 5000
 
