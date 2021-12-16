@@ -8,8 +8,9 @@ RUN pip install \
 
 EXPOSE 5000
 
-CMD mlflow server \
-    --host 0.0.0.0 \
-    --port 5000 \
-    --default-artifact-root ${BUCKET} \
-    --backend-store-uri mysql+pymysql://${USERNAME}:${PASSWORD}@${HOST}:${PORT}/${DATABASE}
+ENTRYPOINT ["mlflow", "server"]
+
+CMD ["--host 0.0.0.0"]
+CMD ["--port 5000"]
+CMD ["--default-artifact-root ${BUCKET}"]
+CMD ["--backend-store-uri mysql+pymysql://${USERNAME}:${PASSWORD}@${HOST}:${PORT}/${DATABASE}"]
