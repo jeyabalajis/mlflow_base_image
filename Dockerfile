@@ -1,7 +1,11 @@
 FROM python:3.8.2-slim
 
-RUN pip install PyMySQL==0.9.3 && \   
-    pip install psycopg2-binary==2.8.5 && \
-    pip install mlflow[extras]==1.9.1
+RUN pip install \
+    mlflow==1.21.0 \
+    pymysql==1.0.2 \
+    boto3 && \
+    mkdir /mlflow/
 
-ENTRYPOINT ["mlflow", "server"]
+EXPOSE 5000
+
+ENTRYPOINT exec mlflow server --host 0.0.0.0 --port 5000 --default-artifact-root ${BUCKET} --backend-store-uri mysql+pymysql://${USERNAME}:${PASSWORD}@${HOST}:${PORT}/${DATABASE}
